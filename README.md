@@ -1,21 +1,33 @@
-Test Case 2: Login with Correct Input
-This repository contains the implementation and automation for Test Case 2: Login with Correct Input from the Automation Exercise Test Cases.
+Test Case 1: Register User
+This repository contains the implementation of Test Case 1: Register User for the Automation Exercise platform. This test case is designed to verify that a new user can successfully register by entering valid information into the registration form. The steps include filling in the necessary details and confirming successful registration.
 
-Objective:
-The goal of this test case is to verify that a user can successfully log in to the application with the correct credentials (valid username and password).
+Test Case Steps:
+1. Navigate to the Website
+Open the Automation Exercise homepage by visiting https://www.automationexercise.com.
 
-Steps:
-1. Open the application URL.
-2. Navigate to the login page.
-3. Enter valid login credentials (e.g., valid email and password).
-4. Submit the login form.
-5. Ensure the user is successfully logged in and redirected to the homepage or user dashboard.
-6. Verify that the logged-in user’s name or profile information appears as expected.
+2. Click on 'Sign Up / Login' Button
+On the homepage, click on the 'Sign Up / Login' button to navigate to the login/registration page.
 
-Expected Result:
-The system should accept the correct credentials and successfully log the user in.
-The user should be redirected to the appropriate page (e.g., homepage, dashboard, etc.).
+3. Fill in Registration Details
+Enter the following details in the registration form:
 
-Tools:
-Test Runner/Environment: Mocha, Selenium-Webdriver
-Programming Language: JavaScript
+Name
+Email Address
+Password
+Date of Birth
+Gender
+Address
+Mobile Number
+Other required fields.
+
+4. Submit the Registration Form
+Click on the 'Create Account' button to submit the form.
+
+5. Verify Registration Success
+After submission, check if the registration is successful by confirming the message that indicates account creation. Verify that the user is redirected to the next page, which indicates a successful registration.
+
+6. Login with Registered Account
+After registration, attempt to log in using the newly created account by entering the email and password.
+
+7. Confirm Login Success
+Verify that the user is successfully logged in and redirected to the appropriate page.
