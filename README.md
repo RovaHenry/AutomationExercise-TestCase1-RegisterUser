@@ -1,4 +1,5 @@
 Test Case 1: Register User
+
 This repository contains the implementation of Test Case 1: Register User for the Automation Exercise platform. This test case is designed to verify that a new user can successfully register by entering valid information into the registration form. The steps include filling in the necessary details and confirming successful registration.
 
 Test Case Steps:
